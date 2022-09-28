@@ -1,0 +1,44 @@
+html,body{
+margin: 0;
+padding: 0;
+background-image: url(images/nature.jpg);
+background-size: cover;
+
+}
+.navp {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(190, 186, 221, 0.23);
+    
+    height: 60px;
+
+
+}
+
+.navp ol{
+display: flex;
+list-style: none;
+
+}
+.navp a{
+padding-left: 120px;
+text-decoration: none;
+color: black;
+font-size: large;
+font-style: italic;
+}
+
+.navp ol li:hover{
+  background-color: white;
+
+
+}
+h2{
+margin-top: 100px;
+margin-left: 100px;
+font-style:oblique;
+font-size: 50px;
+font: bold;
+
+
+}
